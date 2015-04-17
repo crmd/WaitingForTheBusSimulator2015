@@ -93,6 +93,7 @@ public class BirdFlap : MonoBehaviour {
 
 	public void AddScore()
 	{
+		Debug.Log ("AddingScore");
 		score++;
 	}
 }
